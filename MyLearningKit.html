@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for Lab 03.
+  For: 23w EECS 1012, York University, EECS, Lassonde School of Engineering -->
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Uzair's Kit </title>
+  <!-- in Ex1, add a link tag here to connect it to the css file -->
+  <link rel="stylesheet" href="MyLearningKit.css">
+  
+  <!-- in Ex1, add a script tag here to connect it to the js file -->
+  <script src="MyLearningKit.js"> </script>
+</head>
+<body>
+
+  <header>
+    <h1> Uzair's Computational Thinking Kit </h1>
+	<nav>
+	  <!-- In Ex1, add an attribute onclick to button-->
+  	  <button onclick="p1()">Problem01</button>
+	  <!-- In Ex3, add an attribute onclick to button-->  
+	  <button onclick="p02Func()">Problem02</button>
+	  <button onclick="p3()">Problem03</button>
+	  <button onclick="p4()">Problem04</button>
+	  <button onclick="p5()">Problem05</button>
+	  <button onclick="p6()">Problem06</button>
+	  <button onclick="p7()">Problem07</button>
+	  <button onclick="p8()">Problem08</button>
+	  <button onclick="p9()">Problem09</button>
+	  <button onclick="p10()">Problem10</button>
+    <button onclick="p11()">Problem11</button>
+	  <button onclick="p12()">Problem12</button>
+	  <button onclick="p13()">Problem13</button>
+	  <button onclick="p14()">Problem14</button>
+	  <button onclick="p15()">Problem15</button>
+	  <button onclick="p16()">Problem16</button>
+	  <button onclick="p17()">Problem17</button>
+	  <button onclick="p18()">Problem18</button>
+    <button onclick="p19()">Problem19</button>
+	  <button onclick="p20()">Problem20</button>
+	  <button onclick="p21()">Problem21</button>
+	  <button onclick="p22()">Problem22</button>
+	  <button onclick="p23()">Problem23</button>
+	  <button onclick="p24()">Problem24</button>
+	  <button onclick="p25()">Problem25</button>
+	  <button onclick="p26()">Problem26</button>
+    <button onclick="p27()">Problem27</button>
+	  <button onclick="p28()">Problem28</button>
+	  <button onclick="p29()">Problem29</button>
+	  <button onclick="p30()">Problem30</button>
+	</nav>
+  </header>
+  
+  <div id="problem" class="problem">
+  </div>
+  <div class="column1 design">
+    <!-- in Ex2, add an attribute onclick to the following input-->
+	<input id="check1" type="checkbox" onclick="checkUncheck1()"/> Design
+
+    <!-- in Ex4, add attributes onclick and ondblclick to the following img-->
+ 	<img id="flowchart" ondblclick="zoomIn()" onclick="zoomOut()" src="null" alt="null"  />
+  </div>
+  <div class="column2 jsSolution">
+	<input id="check2" type="checkbox" onclick="checkUncheck2()"/> JavaScript Solution
+	 <img id="js" src="null" alt="null" />
+  </div>
+  <div class="column3 otherSolution">
+	<input id="check3" type="checkbox" onclick="checkUncheck3()"/> Another Solution
+	<img id="another" src="null" alt="null" />
+  </div>
+
+  <footer>(c) Author of this web page: <span><!--In Ex 1, replace your name here-->Uzair Ansari</span> </footer>
+</body>
+</html>
